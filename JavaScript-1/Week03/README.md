@@ -1,0 +1,2 @@
+# JavaScript
+FooCoding JavaScript projects
