@@ -1,0 +1,30 @@
+body {
+  background-color: bisque;
+  max-width: 1000px;
+}
+main {
+width: 100%;
+}
+h1 {
+  width: 100%;
+  font-size: 50px;
+  background-color: gray;
+  text-align: center;
+  float: top;
+
+}
+h2 {
+  width:100%;
+  text-align: left;
+}
+ul {
+border-bottom: 2px;
+width: 30%;
+border-style: solid;
+border-color: black;
+
+}
+li  {
+font-size: 20px;
+padding: 6px;
+}
