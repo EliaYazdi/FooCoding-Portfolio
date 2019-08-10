@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+h1 {
+    background-color: rgb(221, 125, 7);
+    font-size: 50px;
+}
+h2 {
+    background-color: rgb(95, 76, 52);
+    clear: both;
+}
+h3 {
+  
+}
+.grid-item {
+    background-color: rgb(221, 125, 7);
+    border: 10px solid black;
+    float : left;
+}
+p {
+    text-align: center;
+}
+#grid-floats {
+    border: 10px solid #474747;
+    margin: 8px;
+    padding: 5px;
+    float: left;
+    background-color: teal;
+}
+#grid-floats p {
+    width : 200px;
+    height: 60px;
+    text-align: center;
+}
+#grid-floats li {
+    width: 250px;
+    height: 450px;
+    margin: 1%;
+    padding: 8px;
+    display: inline-block;
+    float: left;
+
+}
+#grid-floats img {
+    width: 200px;
+    height:150px;
+    margin: 1%;
+    border: 5px solid black;
+}
+@media screen and (max-width: 400px) {
+    #grid-flex li {
+    width: 40%;
+    overflow: scroll;
+    float: left;
+    }
+    .grid-item:nth-child(1n) {
+    width: 90%;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 400px) {
+    #grid-flex li {
+        width: 30%;
+        overflow: scroll;
+    }
+    .grid-item:nth-child(1n) {
+        width: 40%;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1224px) {
+    #grid-flex li {
+        width: 20%;
+    }
+    .grid-item:nth-child(1n) {
+        width: 30%;
+    }
+    **************************************************************
+}
+#grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 10px solid #474747;
+    margin: 8px;
+    padding: 5px;
+    background-color: teal;
+}
+#grid-flex p {
+    font-size: 1em;
+    color: black;
+}
+#grid-flex img { 
+    width: 70%;
+    height: auto;
+    border: 5px solid black;
+    margin: 2rem;
+}
+#grid-flex li {
+  width: 16%;
+  height: auto;
+  margin: 1%;
+  padding: 1%;
+}
+#grid-flex :first-child {
+    width: 30%;
+}
+@media screen and (max-width: 320px) {
+    #grid-flex li {
+    width: 40%;
+    }
+    #grid-flex :first-child {
+    width: 90%;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    #grid-flex li {
+        width: 30%;
+    }
+    #grid-flex :first-child {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 1224px) {
+    #grid-flex li {
+        width: 20%;
+    }
+    #grid-flex :first-child {
+        width: 30%
+    }
+}
