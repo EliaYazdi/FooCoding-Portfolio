@@ -1,0 +1,18 @@
+/* add your styling here */
+body {
+  background-color:rgba(55, 42, 42, 1) ;
+  margin: 12px;
+  padding: 12px;
+
+}
+
+li {
+  background-color: rgba(114, 49, 49, 1);
+color: white;
+border-style: solid;
+padding: 20px;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
